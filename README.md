@@ -1,5 +1,7 @@
 # wp-bookmark-manager
 
+![スクリーンショット](./screenshot.png)
+
 link-manager.phpの拡張機能。
 
 1. link_idを指定してコピーとして新規作成を行う機能
