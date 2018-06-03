@@ -1,0 +1,30 @@
+.wbm_error {
+    padding: 1em;
+    border: 1px solid #f3707c;
+    background-color: #fff1f1;
+    color: #f0485a;
+}
+
+.wbm_notice {
+    padding: 1em;
+    border: 1px solid #bacf9f;
+    border-radius: 3px;
+    background-color: #f4f7ee;
+}
+
+.wbm_notice var {
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 3px;
+    font-family: monospace;
+    background-color: #fff;
+}
+
+.wbm_optionTable th,
+.wbm_optionTable td {
+    padding: 5px 10px 5px 0;
+}
+
+.wbm_optionTable th {
+    text-align: left;
+}

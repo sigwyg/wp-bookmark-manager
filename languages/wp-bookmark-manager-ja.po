@@ -1,0 +1,219 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-bookmark-manager 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-24 17:11-0600\n"
+"PO-Revision-Date: 2018-05-24 19:16+0900\n"
+"Last-Translator: Yasuo Fukuda <yasuo.fukuda@theport.jp>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin-clone/index.php:7
+#: admin-clone/index.php:15
+#: wp-bookmark-manager.php:52
+#: wp-bookmark-manager.php:53
+msgid "Clone Link"
+msgstr "リンクを複製する"
+
+#: admin-clone/index.php:6
+msgid "Please input a link_id that becomes a source of a new link."
+msgstr "新規作成時のコピー元となるlink_idを<strong>1つだけ</strong>入力してください"
+
+#: admin-clone/index.php:8
+#, php-format
+msgid "Copied to <var>link_id</var>=<var>%s</var>."
+msgstr "<var>link_id</var>=<var>%s</var>にコピー完了しました。"
+
+#: admin-clone/clone_link.php:22
+msgid "No link to duplicate has been supplied!"
+msgstr "必要な情報が足りないため、複製できません！"
+
+#: admin-clone/clone_link.php:45
+msgid "Copy creation failed, could not find original:"
+msgstr "複製を作成できません。コピー元が見つかりませんでした。"
+
+#: admin-export/index.php:9
+msgid "Export to CSV"
+msgstr "CSVとしてエクスポート"
+
+#: admin-export/index.php:11
+msgid "Please set the fields you would like to export with CSV."
+msgstr "CSVでエクスポートする項目を設定してください。"
+
+#: admin-export/index.php:17
+msgid "Please adjust your permissions so that you are able to edit the below directory."
+msgstr "以下のディクレトリに書き込みができるようにパーミッションを変更してください。"
+
+#: admin-export/index.php:31
+msgid "Link ID"
+msgstr "リンクID"
+
+#: admin-export/index.php:32
+msgid "URL"
+msgstr "ウェブアドレス"
+
+#: admin-export/index.php:33
+msgid "Name"
+msgstr "名称"
+
+#: admin-export/index.php:34
+msgid "Image URL"
+msgstr "画像のアドレス"
+
+#: admin-export/index.php:35
+msgid "Target"
+msgstr "リンクターゲット"
+
+#: admin-export/index.php:36
+msgid "Description"
+msgstr "説明"
+
+#: admin-export/index.php:37
+msgid "Notes"
+msgstr "メモ"
+
+#: admin-export/index.php:38
+msgid "Category"
+msgstr "カテゴリー"
+
+#: admin-export/index.php:47
+msgid "Number of links to download."
+msgstr "ダウンロードする件数"
+
+#: admin-export/index.php:49
+msgid "*All downloaded if \"0\" selected."
+msgstr "※0の場合はすべてダウンロード"
+
+#: admin-export/index.php:55
+msgid "DESC"
+msgstr "降順"
+
+#: admin-export/index.php:53
+msgid "Sorting by ID."
+msgstr "IDのソート順"
+
+#: admin-export/index.php:56
+msgid "ASC"
+msgstr "昇順"
+
+#: admin-export/index.php:60
+msgid "Select ID range."
+msgstr "IDの範囲指定"
+
+#: admin-export/index.php:71
+msgid "Export"
+msgstr "エクスポート"
+
+#: classes/wbm-importer-helper.php:67
+msgid "Provided Link ID not found."
+msgstr "指定されたリンクIDが見つかりません。"
+
+#: classes/wbm-importer-helper.php:153
+msgid "Could not get remote file."
+msgstr "リモートファイルを取得できませんでした。"
+
+#: classes/wbm-importer.php:15
+msgid "Import from CSV"
+msgstr "CSVからインポート"
+
+#: classes/wbm-importer.php:25
+msgid "Choose a CSV (.csv) file to upload, then click Upload file and import."
+msgstr ""
+"アップロードするCSV (.csv) ファイルを選択し、「ファイルをアップロードしてイ"
+"ンポート」をクリックしてください。"
+
+#: classes/wbm-importer.php:26
+msgid ""
+"Excel-style CSV file is unconventional and not recommended. LibreOffice has "
+"enough export options and recommended for most users."
+msgstr ""
+"エクセル形式のCSVファイルとは互換性がなく、推奨しません。LibreOfficeはほとん"
+"どのユーザーに最適な出力オプションを提供します。"
+
+#: classes/wbm-importer.php:27
+msgid "Requirements:"
+msgstr "必須:"
+
+#: classes/wbm-importer.php:29
+msgid "Select UTF-8 as charset."
+msgstr "文字セットにUTF-8を選択してください。"
+
+#: classes/wbm-importer.php:30
+#, php-format
+msgid "You must use field delimiter as \"%s\""
+msgstr "フィールド区切りに \"%s\" を使用してください。"
+
+#: classes/wbm-importer.php:31
+msgid "You must quote all text cells."
+msgstr "全てのテキストセルを引用符で囲ってください。"
+
+#: classes/wbm-importer.php:33
+msgid "Download example CSV files:"
+msgstr "サンプルCSVファイルをダウンロード:"
+
+#: classes/wbm-importer.php:37
+msgid "An empty \"link_id\", created as new item of link."
+msgstr "link_idが空の場合、新規作成されます。"
+
+#: classes/wbm-importer.php:38
+msgid "Empty data is ignored."
+msgstr "空のデータは、単に無視されます。"
+
+#: classes/wbm-importer.php:39
+msgid "If you input \"BLANK\" string, then convert to empty data."
+msgstr "特定の内容を消去したい場合、\"BLANK\"文字列を入力してください。"
+
+#: classes/wbm-importer.php:40
+msgid "\"link_url\" can not empty."
+msgstr "link_urlは空にできません。"
+
+#: classes/wbm-importer.php:41
+msgid "When \"link_name\" is \"BLANK\" string, \"link_name\" becomes the same value as \"link_url\"."
+msgstr "link_nameを\"BLANK\"に設定した場合、link_urlと同じ値になります。"
+
+#: classes/wbm-importer.php:42
+msgid "When \"link_category\" is \"BLANK\" string, \"link_category\" becomes the default category."
+msgstr "link_categoryを\"BLANK\"に設定した場合、デフォルトのカテゴリーに設定されます。"
+
+#: classes/wbm-importer.php:53 classes/wbm-importer.php:57
+msgid "Sorry, there has been an error."
+msgstr "エラーが発生しました。"
+
+#: classes/wbm-importer.php:58
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"エクスポートファイルが<code>%s</code>に見つかりません。これは、パーミッショ"
+"ンの問題である可能性が高いです。"
+
+#: classes/wbm-importer.php:107
+msgid "Failed to open file."
+msgstr "ファイルを開けませんでした。"
+
+#: classes/wbm-importer.php:225
+#, php-format
+msgid "ID \"%s\" : "
+msgstr "ID \"%s\" : "
+
+#: classes/wbm-importer.php:226
+#, php-format
+msgid "Processing \"%s\" done."
+msgstr "\"%s\" の処理が完了しました。"
+
+#: classes/wbm-importer.php:245
+msgid "All Done."
+msgstr "すべて完了しました。"
+
+#: wp-bookmark-manager.php:55 wp-bookmark-manager.php:56
+msgid "Bookmark Import"
+msgstr "CSVインポート"
+
+#: wp-bookmark-manager.php:63 wp-bookmark-manager.php:64
+msgid "Bookmark Export"
+msgstr "CSVエクスポート"

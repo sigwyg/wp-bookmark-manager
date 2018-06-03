@@ -1,0 +1,6 @@
+"link_id","link_url","link_name","link_image","link_target","link_description","link_notes","link_category"
+"40","http://example.com/1","リンク_1","http://0.0.0.0/wp-content/uploads/20170720163158/overlay.png","_blank","説明","メモ","1232"
+"39","http://example.com/2","リンク_2","http://0.0.0.0/wp-content/uploads/20170720163158/overlay.png","_blank","","","1231"
+"38","http://example.com/3","リンク_3","http://0.0.0.0/wp-content/uploads/20170720163158/overlay.png","","","","1227"
+"37","http://example.com/4","リンク_4","http://0.0.0.0/wp-content/uploads/20170720163158/overlay.png","","","","1227"
+"36","http://example.com/5","リンク_5","http://0.0.0.0/wp-content/uploads/20170720163155/overlay.png","","","","1227"
